@@ -1,0 +1,67 @@
+{
+  "rules": [
+    {
+      "name": "ai测试1",
+      "ruleType": "通用类",
+      "description": "",
+      "level": "S1",
+      "enable": true,
+      "conditions": {
+        "fileContent": {
+          "enabled": true,
+          "bodyMatch": {
+            "mode": "满足所有",
+            "kind": "关键词",
+            "value": "ER图"
+          }
+        }
+      },
+      "usage": {
+        "audit": true,
+        "api": true
+      }
+    },
+    {
+      "name": "ai测试2",
+      "ruleType": "通用类",
+      "description": "",
+      "level": "S2",
+      "enable": true,
+      "conditions": {
+        "fileContent": {
+          "enabled": true,
+          "bodyMatch": {
+            "mode": "满足所有",
+            "kind": "关键词",
+            "value": "ER图"
+          }
+        }
+      },
+      "usage": {
+        "audit": true,
+        "api": true
+      }
+    },
+    {
+      "name": "ai测试3",
+      "ruleType": "通用类",
+      "description": "",
+      "level": "S2",
+      "enable": true,
+      "conditions": {
+        "fileContent": {
+          "enabled": true,
+          "bodyMatch": {
+            "mode": "满足所有",
+            "kind": "关键词",
+            "value": "ER图"
+          }
+        }
+      },
+      "usage": {
+        "audit": true,
+        "api": true
+      }
+    }
+  ]
+}

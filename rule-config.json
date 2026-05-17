@@ -1,0 +1,20 @@
+{
+  "name": "ai测试3",
+  "ruleType": "通用类",
+  "description": "",
+  "level": "S2",
+  "conditions": {
+    "fileContent": {
+      "enabled": true,
+      "bodyMatch": {
+        "mode": "满足所有",
+        "kind": "关键词",
+        "value": "ER图"
+      }
+    }
+  },
+  "usage": {
+    "audit": true,
+    "api": true
+  }
+}

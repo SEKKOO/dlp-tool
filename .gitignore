@@ -1,0 +1,5 @@
+.session/
+.pycache/
+__pycache__/
+.chrome-profile/
+.DS_Store
